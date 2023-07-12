@@ -6,7 +6,6 @@ import { ConvexProvider, ConvexReactClient } from "convex/react";
 
 const address = import.meta.env.VITE_CONVEX_URL;
 
-console.log(address);
 const convex = new ConvexReactClient(address);
 
 ReactDOM.render(
